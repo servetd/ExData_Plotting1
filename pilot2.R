@@ -13,5 +13,5 @@ sub_epc$Time <- strptime(sub_epc$Time, format="%d/%m/%Y %H:%M:%S")
 plot(sub_epc$Time,as.numeric(as.character(sub_epc$Global_active_power)),type="l",xlab="",ylab="Global Active Power (kilowatts)") 
 
 #save file
-dev.copy(png,"./figure/pilot2.png")
-png(filename ="./figure/pilot2.png", width = 480, height = 480 )
+dev.copy(png,"pilot2.png")
+png(filename ="pilot2.png", width = 480, height = 480 )

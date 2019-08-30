@@ -17,5 +17,5 @@ with(sub_epc,lines(Time,as.numeric(as.character(Sub_metering_3)),col="blue"))
 legend("topright", lty=1, col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 #save file
-dev.copy(png,"./figure/pilot3.png")
-png(filename ="./figure/pilot3.png", width = 480, height = 480 )
+dev.copy(png,"pilot3.png")
+png(filename ="pilot3.png", width = 480, height = 480 )

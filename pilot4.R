@@ -22,5 +22,5 @@ with(sub_epc,{
   plot(sub_epc$Time,as.numeric(as.character(sub_epc$Global_reactive_power)),type="l",xlab="datetime",ylab="Global_reactive_power")
 })
 #save file
-dev.copy(png,"./figure/pilot4.png")
-png(filename ="./figure/pilot4.png", width = 480, height = 480 )
+dev.copy(png,"pilot4.png")
+png(filename ="pilot4.png", width = 480, height = 480 )
